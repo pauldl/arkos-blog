@@ -3,8 +3,7 @@ layout: post
 title: Initial arkOS Blog
 category: Meta
 
-excerpt: I'm getting started using arkOS. And, because I'm a big believer in
-dogfooding and recursion, I'm going to cronicle things here.
+excerpt: I'm getting started using arkOS. And, because I'm a big believer in dogfooding and recursion, I'm going to cronicle things here.
 
 ---
 
