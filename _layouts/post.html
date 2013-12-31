@@ -6,9 +6,9 @@ layout: default
         <header>
             <h2>{{ page.title }}</h2>
             <ul>
-                <li><i class="icon-clock"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></li>
-                <li class="category"><i class="icon-tag"></i> {{ page.categories | category_links }}</li>
-                <li class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</li>
+                <li>Published <time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></li>
+                <li class="category">in {{ page.categories | category_links }}</li>
+                <li class="author">by {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</li>
             </ul>
         </header>
 
