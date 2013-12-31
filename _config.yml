@@ -1,14 +1,14 @@
 # Name of your blog (this will show up at the top of your page and in the RSS feed)
-name: Sample Jekyll Blog
+name: pauld's arkOS Blog
 
 # Short description (goes below the title; it will also be used in the RSS feed)
-description: This is a sample Jekyll Blog.
+description: Hosted and about arkOS.
 
 # Your name, as you want it to appear underneath each post and in the footer
-author: Your Name
+author: Paul DeLeeuw
 
 # Your email if you want it to be linked on the contact page
-author_email: you@example.com
+author_email: pauldl+ark@gmail.com
 
 # The directory for category index pages. Change it to something else if
 # for example you want links like /categories/category1 instead of /category1
@@ -21,7 +21,7 @@ category_dir: /
 baseurl: 
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: http://yourdomain.com/
+url: http://padizio.dnsd.me
 
 #### Under the Hood Stuff #####
 
@@ -34,4 +34,4 @@ markdown: rdiscount
 permalink: pretty
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, node_modules]
+exclude: [README.md, package.json, grunt.js, Gruntfile.js, node_modules]
