@@ -25,7 +25,10 @@ hr {
     margin-left: 0;
     padding-left: 0;
 	width: 100%;
-	min-width: 840px;
+    height: 1px;
+    display: block;
+    border: 0;
+    background-color: gray;
 }
 
 pre {
